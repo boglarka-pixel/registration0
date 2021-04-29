@@ -28,11 +28,10 @@ function App() {
   }, []);
 
   return (<>
-      <header  className="container mt-3 mb-3">
-        <h1>Regisztráció admin</h1>
-      </header>
+    <header className="container mt-3 mb-3">
+      <h1>Regisztráció admin</h1>
+    </header>
     <section className="container">
-
       <table className="table table-striped">
         <thead>
         <tr>
@@ -55,7 +54,7 @@ function App() {
         </tbody>
       </table>
     </section>
-    </>
+  </>
   );
 }
 
