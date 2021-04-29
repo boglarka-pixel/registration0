@@ -127,5 +127,5 @@ elemmel:
 
 - Buildeld le a munkádat
 - Deployold Firebase hosting szolgáltatónál
-- a repositoryban található [public-link.txt](public-link.txt)
+- a repositoryban található [registrations/public-link.txt](registrations/public-link.txt)
   fájlba írd bele a hosting linkjét, pl.: http://valami-nev-23231dd9.web.app
