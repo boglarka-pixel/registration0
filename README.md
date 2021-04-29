@@ -25,6 +25,12 @@ Egy regisztrációs rendszer admin felületét fejlesztjük tovább.
 
 ## Általános követelmények
 
+- Fork-old ezt a repository-t a saját account-odra
+- Klónozd a fork-olt repository-t a saját számítógépedre
+- Commit-olj gyakran és az üzenetek legyenek elég deskriptívek
+- Minden válasz és megoldás kerüljön ebbe a repository-ba
+- Pusholni csak a vizsga lejárta előtt 10 perccel szabad
+
 - A kiindulókódban megtalálható a regisztráltak táblázata, ezt kell
 kiegészíteni 5 új funkcióval és hatodik feladatként hostolni a Firebase
  szolgáltatónál.
@@ -33,6 +39,16 @@ kiegészíteni 5 új funkcióval és hatodik feladatként hostolni a Firebase
 - Használható npm packagek: bootstrap@next, bootstrap-icons, firebase, react,
  react-dom, react-router-dom, react-scripts, node-sass, sass, validator,
  web-vitals
+  
+## Feladat beküldése: Gradescope
+
+- [Ezen a linken küldheted GradeScope-ba](https://www.gradescope.com/courses/199686/assignments/1215230)
+  zippelt (tömörített) formában
+- Gradescope-ra a `registrations` mappa tartalma legyen feltöltve. A `node_modules` és a `build`
+  mappa tartalma nem kerülhet bele a zippel tömörített fájlba
+- A GradeScope-on feltöltést követően látható pontozás jelzés értékű,
+  nem ezek lesznek a végleges pontok
+- A GradeScope pontban 13:00-kor zár, nincs késedelemes leadás.
 
 ## Adatbázis beállítása
 
