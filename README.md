@@ -90,7 +90,7 @@ elemmel:
   - 'Jogkör', `<select>` típusú, választható értékei:
     'Válassz!', 'admin', 'vendég', 'regisztrált felhasználó'
   - 'Aktív' feliratú checkbox
-  - 'Mentés' gomb
+  - 'Regisztráció' gomb, amit megnyomva felviszi az új felhasználót
 
 ![register](./assets/registration-new.png)
 
@@ -104,7 +104,7 @@ elemmel:
   - A jogkör kötelezően választandó, csak a következő értékek elfogadhatóan:
   'admin', 'vendég', 'regisztrált felhasználó'.
   - Validációs Hibaüzenet: 'Választani kötelező'
-- Ha a form valid, akkor mentés gomb megnyomására menti Firestore adatbázisba
+- Ha a form valid, akkor regisztráció gomb megnyomására menti Firestore adatbázisba
   az adatokat.
 - Sikeres mentés esetén Bootstrap sikeres alert üzenet megjelenítése a form
   alatt: sikeres mentés
