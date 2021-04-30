@@ -95,12 +95,18 @@ gradeIt({
   title: 'Deletion from firebase should remove item from db',
   score: 1,
   test: async function () {
+    let deleteButton;
 
-    const deleteButton = await document.getElementById("1");
+    await waitFor(async () => {
+
+      const deleteButtons = await screen.findAllByText(/Törlés/i);
+      expect(deleteButtons).toHaveLength(5);
+      deleteButton = deleteButtons[0];
+    });
+
     await act(async () => {
       userEvent.click(deleteButton);
     });
-
 
     await waitFor(async () => {
 
