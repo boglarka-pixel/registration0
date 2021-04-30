@@ -19,6 +19,7 @@
   [GradeScope-ba](https://www.gradescope.com/courses/199686/assignments/1215230) zippelt (tömörített) formában
   - **Figyelj arra, hogy a feladatokat a megfelelő helyre kell feltölteni.**
 - Az eredményednek legalább 51%-nak kell lennie, hogy sikeres legyen a vizsga
+
 # Regisztráció admin
 
 Egy regisztrációs rendszer admin felületét fejlesztjük tovább.
