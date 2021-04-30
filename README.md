@@ -1,3 +1,24 @@
+# HSG Frontend Képesítő vizsga
+
+## Kezdeti lépések
+
+- Fork-old ezt a repository-t a saját account-odra
+- Klónozd a fork-olt repository-t a saját számítógépedre
+- Készíts egy `.gitignore` file-t, hogy a generált file-ok ne szerepeljenek
+  a commit-odban
+- Commit-olj gyakran és az üzenetek legyenek elég deskriptívek
+- Minden válasz és megoldás kerüljön ebbe a repository-ba
+
+## Tartsd észben
+
+- Bármilyen online forrást használhatsz, de **kérlek dolgozz egyedül!**
+- **Ne csak copy-paste-eld** a válaszokat és megoldásokat,
+  inkább használd a saját szavaidat
+- **Ne push-olj** GitHub-ra, amíg a mentorod be nem jelenti, hogy eljött az idő
+- Az utolsó fél órában feltöltheted a megoldásod a
+  [GradeScope-ba](https://www.gradescope.com/courses/199686/assignments/1215230) zippelt (tömörített) formában
+  - **Figyelj arra, hogy a feladatokat a megfelelő helyre kell feltölteni.**
+- Az eredményednek legalább 51%-nak kell lennie, hogy sikeres legyen a vizsga
 # Regisztráció admin
 
 Egy regisztrációs rendszer admin felületét fejlesztjük tovább.
