@@ -39,6 +39,8 @@ kiegészíteni 5 új funkcióval és hatodik feladatként hostolni a Firebase
 - Használható npm packagek: bootstrap@next, bootstrap-icons, firebase, react,
  react-dom, react-router-dom, react-scripts, node-sass, sass, validator,
  web-vitals
+- A feladatoknak egymástól függetlenül lesznek tesztelve,
+  így a feladatok egymásra gyakorolt hatásukkal nem kell számolni
   
 ## Feladat beküldése: Gradescope
 
@@ -46,7 +48,14 @@ kiegészíteni 5 új funkcióval és hatodik feladatként hostolni a Firebase
   zippelt (tömörített) formában
 - Gradescope-ra a `registrations` mappa tartalma legyen feltöltve. A `node_modules` és a `build`
   mappa tartalma nem kerülhet bele a zippel tömörített fájlba
-- A GradeScope-on feltöltést követően látható pontozás jelzés értékű,
+- legyen `App.js` fájlod
+- ne használj `.jsx` kiterjesztést
+- a `firebase/app` helyett a `firebase` package legyen használva
+- stíluslapok csak SCSS-ben legyenek
+- a Gradescope-ban csak alap npm packagek vannak telepítve, így más npm package-t ezeken kívül nem tudtok használni
+- használható npm packagek: `bootstrap@next`, `bootstrap-icons`,
+  `firebase`, `react`, `react-dom`, `react-router-dom`, `react-scripts`, `node-sass`, `sass`, `validator`, `web-vitals`
+- useState setter függvényei **csak valódi szükség esetén** legyenek anonymus függvénnyel és previous paraméterrel használva- A GradeScope-on feltöltést követően látható pontozás jelzés értékű,
   nem ezek lesznek a végleges pontok
 - A GradeScope pontban 13:00-kor zár, nincs késedelemes leadás.
 
