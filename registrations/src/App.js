@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 import "./App.scss";
 import Admin from "./Admin";
-import RegisterForm from "./components/RegisterForm";
+import RegisterForm from "./RegisterForm";
 
 function App() {
   return (
