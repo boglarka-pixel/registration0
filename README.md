@@ -62,9 +62,9 @@ kiegészíteni 5 új funkcióval és hatodik feladatként hostolni a Firebase
 
 ## Tesztek futtatása
 
-Ez a repository tartalmaz egy kiinduló React projectet, amelynek a `__test__` mappájában találsz teszteket, amelyekkel futtatásával előzetesen elenőrizheted a munkádat. 
+Ez a repository tartalmaz egy kiinduló React projectet, amelynek a `__tests__` mappájában találsz teszteket, amelyekkel futtatásával előzetesen elenőrizheted a munkádat. 
 
-- A tesztek a`__test__` mappában vannak, a tesztesetek helyesek, nem kell új tesztet írni, és nem kell a meglévőket módosítani
+- A tesztek a`__tests__` mappában vannak, a tesztesetek helyesek, nem kell új tesztet írni, és nem kell a meglévőket módosítani
 - A tesztek nem fognak lefutni, amíg a megfelelő komponensek el nem készülnek
 ## Adatbázis beállítása
 
